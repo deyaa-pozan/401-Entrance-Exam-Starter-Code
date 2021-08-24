@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { withAuth0 } from '@auth0/auth0-react';
-import Modal from 'react-bootstrap/Modal'
 
 class Home extends React.Component {
   constructor(props) {
